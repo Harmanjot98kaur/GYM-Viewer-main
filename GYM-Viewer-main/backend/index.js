@@ -12,4 +12,5 @@ app.use(cors())
 
 app.use('/workout',routes)
 app.use('/auth',auth)
+app.use('/admin', admin)
 app.listen(8080,()=>console.log('Server started at port 8080'))
